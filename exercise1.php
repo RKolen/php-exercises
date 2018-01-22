@@ -11,7 +11,7 @@
         $sum = 0;
 
         function getAverageAge($ages) {
-          for($i=1; $i<count($ages); $i++) {
+          for($i=0; $i<count($ages); $i++) {
             global $sum;
             $sum += $ages[$i];
           }
